@@ -27,6 +27,14 @@ The RGB color space was chosen due to its wide usage and ease of manipulation. T
 
 The results indicate a strong negative correlation between the Canberra distance and the relative luminance of colors. Statistical tests confirmed this correlation, suggesting that the human intuition of "proximity to white" is based on quantifiable characteristics.
 
+## Graphs
+
+### Mean Luminance x Distance Classes
+<img src='med_lum_dist_graph.PNG'>
+
+### Mean Distance x Luminance Classes
+<img src='med_dist_lum_graph.PNG'>
+
 # Conclusion
 
 The study demonstrated that the Canberra distance is a good indicator of the relative luminance of colors in the RGB space. Future analyses could expand the image sample and explore other metrics to improve color segmentation models.
