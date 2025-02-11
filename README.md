@@ -1,5 +1,5 @@
 # Report on Canberra Distance and Luminance Data in the RGB Color Space
-Data analysis project that aims to establish relate the Canberra distance between white and any given color in the RGB color space to its luminance. 
+Data analysis project that aims to relate the Canberra distance between white and any given color in the RGB color space to its luminance. 
 
 # Introduction
 
