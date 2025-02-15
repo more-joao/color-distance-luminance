@@ -141,7 +141,7 @@ def color_classification(matrix, basis, tolerance=0.5, print_mode=True, name=Non
         with open(f'{output_folder}/group_data.txt', 'a+') as group_file:
             group_file.write(f'{tolerance},{name},{len(ordered_distances)},{max([ordered_distances[c] for c in ordered_distances], key=len)[0][0]},{len(ordered_luminances)},{max([ordered_luminances[c] for c in ordered_luminances], key=len)[0][0]}\n')
     
-    intersections = {}
+    intersections = {} # gives all distance classes which contain the colors in each luminance class   
     for lum in ordered_luminances:
         intersections[lum] = []
         for dist in ordered_distances:
