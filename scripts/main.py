@@ -10,7 +10,7 @@ def get_matrix(image_path, mode='export'): # if mode is anything else -> no file
     print('calculating matrix...')
     array = imread(image_path)
     if mode == 'export':
-        with open('C:/Users/pote1/python/2_projects/painting_data_analysis/test_images/data.txt', 'w+') as data:
+        with open('./test_images/data.txt', 'w+') as data:
             for x in array:
                 for y in x:
                     data.write(f"{y[0],y[1],y[2]};")
